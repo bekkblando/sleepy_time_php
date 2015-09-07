@@ -1,0 +1,94 @@
+body {
+  background-color: #0174AA; }
+
+.center-logo {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+#navigation {
+  margin-top: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.logo-img-container {
+  margin: 0 auto; }
+
+.container {
+  width: 90%;
+  height: auto;
+  position: relative;
+  margin: 0 auto 40px;
+  margin-top: 3%;
+  -webkit-perspective: 1100px;
+  -moz-perspective: 1100px;
+  -o-perspective: 1100px;
+  perspective: 1100px; }
+
+#carousel {
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.ready #carousel {
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  -o-transition: -o-transform 1s;
+  transition: transform 1s; }
+
+#carousel.panels-backface-invisible figure {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+#carousel figure {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border: 1px solid white;
+  font-weight: bold;
+  color: white;
+  text-align: center; }
+
+.ready #carousel figure {
+  -webkit-transition: opacity 1s, -webkit-transform 1s;
+  -moz-transition: opacity 1s, -moz-transform 1s;
+  -o-transition: opacity 1s, -o-transform 1s;
+  transition: opacity 1s, transform 1s; }
+
+#log {
+  background-color: rgba(70, 136, 180, 0.8); }
+
+#cycle {
+  background-color: rgba(0, 64, 112, 0.8); }
+
+#app {
+  background-color: rgba(70, 136, 180, 0.8); }
+
+a {
+  color: white; }
+
+a:visited, a:hover {
+  color: white; }
+
+.list-group-item {
+  background-color: #97C3D9;
+  border-color: #4789B5; }
+
+.table {
+  border-color: #4789B5; }
+
+/*# sourceMappingURL=style.css.map */
